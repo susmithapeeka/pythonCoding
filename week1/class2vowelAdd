@@ -1,0 +1,6 @@
+inp1=input('Enter the string:')
+if inp1[0] in 'aeiou':
+  inp1=inp1+"ing"
+else:
+  inp1+="esy"
+print(inp1)
